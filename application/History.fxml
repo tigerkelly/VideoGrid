@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="aPane" prefHeight="800.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.HistoryController">
+   <children>
+      <VBox AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox alignment="CENTER">
+               <children>
+                  <Label text="History List">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <TableView fx:id="tblHistory" style="-fx-font-size: 16px;" VBox.vgrow="ALWAYS">
+              <columns>
+                <TableColumn fx:id="tcNum" prefWidth="40.0" text="#" />
+                <TableColumn fx:id="tcVideos" prefWidth="400.0" text="Videos" />
+                  <TableColumn fx:id="tcStarts" prefWidth="75.0" text="Starts" />
+                  <TableColumn fx:id="tcEnds" prefWidth="75.0" text="Ends" />
+                  <TableColumn fx:id="tcResolution" prefWidth="100.0" text="Resolution" />
+                  <TableColumn fx:id="tcOutput" prefWidth="225.0" text="Output" />
+              </columns>
+               <contextMenu>
+                  <ContextMenu>
+                    <items>
+                      <MenuItem fx:id="cmDelete" mnemonicParsing="false" onAction="#doMenuDelete" text="Delete History Item" />
+                    </items>
+                  </ContextMenu>
+               </contextMenu>
+            </TableView>
+            <HBox alignment="CENTER_LEFT" spacing="4.0">
+               <children>
+                  <Button fx:id="btnSelect" mnemonicParsing="false" onAction="#doSelect" prefWidth="125.0" text="Select">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+                  <Region HBox.hgrow="ALWAYS" />
+                  <Button fx:id="btnCancel" mnemonicParsing="false" onAction="#doCancel" prefWidth="125.0" text="Cancel">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+               <padding>
+                  <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+               </padding>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
