@@ -6,20 +6,20 @@ This GUI runs on either Windows or Linux.
 ![alt text](/images/VideoGrid_scrn.png?raw=true)
 
 # Install under Windows.
-Use the Windows install program called *VideGrid-?.?.?.exe* to install VideoGrid.
+Use the Windows install program called **VideGrid-?.?.?.exe** to install VideoGrid.
 
-#Install under Linux.
-First create a directory called *Updates* in your home directory and copy the *VideoGrid-?.?.?.run* script to it.
+# Install under Linux.
+First create a directory called **Updates** in your home directory and copy the **VideoGrid-?.?.?.run** script to it.
 Change directory to the ~/Updates directory.
-Next execute the *VideGrid-?.?.?.run*, this will install the VideGrid program.
+Next execute the **VideGrid-?.?.?.run**, this will install the VideGrid program.
 You will need to install Java 19 (openjdk-19) also install the Java FX 19 (openjfx-19)
-Set an environment varable called PATH_TO_FX that points the the lib directory of your installed Java FX.
+Set an environment varable called **PATH_TO_FX** that points the the lib directory of your installed Java FX.
 
 With this GUI you can combine up to 16 videos into a single video.  This program will tile the videos into a grid of 2x1, 2x2, 3x3 or 4x4. The grid used is determined by the number of videos supplied.
 
 The top table contains the videos selected using the fields below the table.  You can edit the column if you need to adjust the vide file or start and end times.
 
-The output field is the filename to write the video to.  The output video format can be any extention supported by your instaled version of ffmpeg. *NOTE:* The windows install will install a private copy of FFMPEG.
+The output field is the filename to write the video to.  The output video format can be any extention supported by your instaled version of ffmpeg. **NOTE:** The windows install will install a private copy of FFMPEG.
 
 You can also select the output video resolution.
 
