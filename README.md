@@ -7,7 +7,7 @@ This GUI runs on either Windows or Linux.
 
 # Install under Windows.
 Use the Windows install program called **VideGrid-?.?.?.exe** to install VideoGrid.
-**Sadly** the .exe is too large for a free account on github, so if you want the widnows installer please email me and I will send you a link.
+**Sadly** the .exe is too large for a free account on github, so if you want the windows installer please email me and I will send you a link. rkwiles@twc.com
 
 # Install under Linux.
 First create a directory called **Updates** in your home directory and copy the **VideoGrid-?.?.?.run** script to it.
