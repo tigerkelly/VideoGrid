@@ -39,9 +39,9 @@ You can also select the output video resolution.
 
 Us the Start and End fields select a time range to use.  The time fields format is hh:mm:ss.ms were hh = hours, mm = minutes, ss = seconds and ms = milliseconds. Examples...
 
-	Start 00:00:30 End 00:00:00 - means to start 30 seconds into video and goto end of video.
-	Start 00:01:00 End 00:30:00 - means to start 30 seconds into video and go for 30 minutes.
-	Start 00:00:30.500 End 01:00:00 = means to start 30 seconds and 500 milliseconds into video and fo for 1 hour.
+	Start 00:00:30 End 00:00:00 - start 30 seconds into video and goto end of video.
+	Start 00:01:00 End 00:30:00 - start 30 seconds into video and go for 30 minutes.
+	Start 00:00:30.500 End 01:00:00 = start 30 seconds and 500 milliseconds into video and go for 1 hour.
 
 The time to create the video is based on the speed of your system, the number of input videos and output resolution size.
 
